@@ -26,7 +26,7 @@ function checks (num1, num2) {
 const values = checks(40, 58);
 
 // dafault parameter numbers values 
-function defaults(names1, names=5) {
+function defaults(names1, names=5) {  //number hole parameter = 0 or 1 nite hoy
     const total = names1 + names;
     console.log(names1, names, total); 
     return total;
@@ -34,11 +34,20 @@ function defaults(names1, names=5) {
 const value2 = defaults(5, 10);
 
 // dafault parameter string values 
-function fullName(firstName, lastName = "") {
+function fullName(firstName, lastName = "") {  // string parameter hole = "" empty string nite hoy
     const fullNames = firstName + " " + lastName;
     console.log(fullNames); 
     return fullNames;
 }
 const useNames = fullName("sojib");
 
-// dafault parameter array values 
+// dafault parameter array values  
+function isArray(myArray = []) { // array hole parameter = [] empty array nite hoy
+    //  your some code
+}
+
+// dafault parameter object values  
+function isArray(myArray = []) { // array hole parameter = {} empty object nite hoy
+    //  your some code
+}
+
