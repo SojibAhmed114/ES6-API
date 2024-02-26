@@ -51,3 +51,33 @@ function isArray(myArray = []) { // array hole parameter = {} empty object nite 
     //  your some code
 }
 
+const firstName = "sojib";
+const middleName = "ahmed";
+const lastName = "safi";
+const myName = firstName + " "+ middleName + " "+ lastName;
+console.log(myName); 
+
+// use backtick key 
+const a = 50;
+const b = 58;
+const result = "the sum of" + a + " and " + b +" is " + (a + b);
+console.log(result);  
+//best away dynamic string:
+const result1 = `the sum of ${a} and ${b} is ${a + b}`
+console.log(result1);
+
+// more  backtick key
+const num = [85, 48, 54, 85];
+const obj = { name: "sojib", age:500 }
+const arrObj = `the value of ${num[2]} and ${num[1] + obj.age}`;
+console.log(arrObj); 
+
+
+// \n means line break 
+const para = "my name is sojib \n" + "i live in bangladesh";
+console.log(para); //line brack
+//best away line break
+const paragraph = `hi
+I am sojib ahmed safi
+this is a 3rd line`;
+console.log(paragraph); 
