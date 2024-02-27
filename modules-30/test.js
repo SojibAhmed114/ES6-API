@@ -36,3 +36,4 @@ const friendData = {
 const getData = (person) => person.age;
 const sents = getData(friendData);
 console.log("sents: ", sents);
+
