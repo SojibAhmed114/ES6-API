@@ -19,3 +19,32 @@ const setData2 = sum(40);
 console.log("setData2: ", setData2);
 
 
+// task 2
+
+const getArry = (myArray) => {
+    let ar = [];
+    for (const a of myArray){
+        if (a % 2 != 1) {
+            ar.push(a)
+        }
+    }
+    return ar;
+}
+const senArray = getArry([14, 25, 36, 69, 58, 47, 74]);
+console.log("sentArray: ", senArray);
+
+
+//....................
+const getData = (getArray) => {
+    let rece = [];
+    for (let i = 0; i < getArray.length ; i++) {
+        if (i % 2 === 0) {
+            rece.push(i);
+        } 
+    }
+    return rece;
+}
+
+const sentArray = getData([14, 25, 36, 69, 58, 47, 74]);
+console.log("sentArray: ", sentArray);
+
