@@ -37,3 +37,9 @@ const getData = (person) => person.age;
 const sents = getData(friendData);
 console.log("sents: ", sents);
 
+
+
+const myArrays = [74, 85, 96, 65, 54, 21, 32];
+for (const num of myArrays) {
+    console.log(num);
+}
