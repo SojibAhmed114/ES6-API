@@ -34,7 +34,7 @@ const senArray = getArry([14, 25, 36, 69, 58, 47, 74]);
 console.log("sentArray: ", senArray);
 
 
-//....................
+//................ ai code a problem ache.........
 const getData = (getArray) => {
     let rece = [];
     for (let i = 0; i < getArray.length ; i++) {
@@ -44,7 +44,6 @@ const getData = (getArray) => {
     }
     return rece;
 }
-
 const sentArray = getData([14, 25, 36, 69, 58, 47, 74]);
 console.log("sentArray: ", sentArray);
 
