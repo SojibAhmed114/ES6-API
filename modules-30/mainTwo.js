@@ -28,5 +28,5 @@ const man = mul(20, 20)
 console.log(man); 
 
 const multi = (num13, num14) => num13 + num14;
-const values = multi(50, 50);
-console.log(values); 
+const value = multi(50, 50);
+console.log(value); 
